@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="convertercss.css">
+  <script src="converterjs.js"></script>
+</head>
+<body>
+  <h1>Unit Converter</h1>
+
+  <!-- Temperature Converter -->
+  <div class="converter">
+    <h2>Temperature Converter</h2>
+    <label for="celsius">Celsius:</label>
+    <input type="number" id="celsius" placeholder="Enter Celsius">
+    <button onclick="convertTemp()">Convert</button>
+    <div class="result" id="tempResult"></div>
+  </div>
+
+  <!-- Weight Converter -->
+  <div class="converter">
+    <h2>Weight Converter</h2>
+    <label for="kg">Kilograms:</label>
+    <input type="number" id="kg" placeholder="Enter Kilograms">
+    <button onclick="convertWeight()">Convert</button>
+    <div class="result" id="weightResult"></div>
+  </div>
+
+  <!-- Distance Converter -->
+  <div class="converter">
+    <h2>Distance Converter</h2>
+    <label for="km">Kilometers:</label>
+    <input type="number" id="km" placeholder="Enter Kilometers">
+    <button onclick="convertDistance()">Convert</button>
+    <div class="result" id="distanceResult"></div>
+  </div>
+</body>
+</html>
